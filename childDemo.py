@@ -4,7 +4,8 @@ from OOPS import Calculator
 class Childimp(Calculator):
 
     num3 = 300
-
+    num5 = 500
+    num7 = 700
     def __init__(self):
         Calculator.__init__(self, 2, 5)
 
