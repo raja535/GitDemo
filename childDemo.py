@@ -12,7 +12,7 @@ class Childimp(Calculator):
         Calculator.__init__(self, 2, 5)
 
     def getCompleteData(self):
-        return self.num3 + self.num1 + self.Summation()
+        return self.num3 + self.num1 + self.Summation() + self.num9
 
 obj1 = Childimp()
 print(obj1.getCompleteData())
